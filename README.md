@@ -54,62 +54,19 @@
 
 ## 📊 数据看板
 
-<div align="center" style="display: flex; flex-direction: column; align-items: center; gap: 20px; padding: 20px;">
-  <div style="max-width: 500px; width: 100%;">
-    <img src="https://github-readme-stats.vercel.app/api?username=Owl23007&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub统计" style="width:100%; max-width:500px; height:auto;"/>
-  </div>
-  <div style="max-width: 500px; width: 100%;">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Owl23007&theme=tokyonight&hide_border=true" alt="连续提交统计" style="width:100%; max-width:500px; height:auto;"/>
-  </div>
-  <div style="max-width: 500px; width: 100%;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Owl23007&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="常用语言" style="width:100%; max-width:500px; height:auto;"/>
-  </div>
-</div>
+<div align="center">
 
----
+![GitHub统计](https://github-readme-stats.vercel.app/api?username=Owl23007&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=default&hide=contribs&card_width=475)
+![常用语言](https://github-readme-stats.vercel.app/api/top-langs/?username=Owl23007&layout=compact&hide_border=true&langs_count=8&card_width=375&theme=default)
+
+</div>
 
 ## 🏆 精选项目
 
-<div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; padding: 16px;">
+<div align="center">
 
-  <div class="project-card" style="max-width: 420px; margin: 0 auto;">
-    <a href="https://github.com/Owl23007/VillageMap">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=VillageMap&theme=tokyonight&hide_border=true" alt="VillageMap项目" style="width:100%; max-width:400px; border-radius:10px;"/>
-    </a>
-    <div class="project-desc">
-      <h3>VillageMap</h3>
-      <p>基于JavaFx的村庄地图项目，探索图论在游戏开发中的应用</p>
-    </div>
-  </div>
-
-  <div class="project-card" style="max-width: 420px; margin: 0 auto;">
-    <a href="https://github.com/Owl23007/ContinuityIns-Frontend">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=ContinuityIns-Frontend&theme=tokyonight&hide_border=true" alt="ContinuityIns-Frontend项目" style="width:100%; max-width:400px; border-radius:10px;"/>
-    </a>
-    <div class="project-desc">
-      <h3>ContinuityIns-Frontend</h3>
-      <p>Vite+Vue3+Pinia构建的现代社区平台前端</p>
-    </div>
-  </div>
-
-  <div class="project-card" style="max-width: 420px; margin: 0 auto;">
-    <a href="https://github.com/Owl23007/ContinuityIns-Backend">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=ContinuityIns-Backend&theme=tokyonight&hide_border=true" alt="ContinuityIns-Backend项目" style="width:100%; max-width:400px; border-radius:10px;"/>
-    </a>
-    <div class="project-desc">
-      <h3>ContinuityIns-Backend</h3>
-      <p>SpringBoot驱动的高性能后端服务，支持复杂数据处理</p>
-    </div>
-  </div>
-
-  <div class="project-card" style="background: #1a1a1a; border-radius:10px; padding:20px; max-width: 420px; margin: 0 auto;">
-    <h3>🌱 技术探索中...</h3>
-    <div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center;">
-      <img src="https://img.shields.io/badge/Machine_Learning-4285F4?style=for-the-badge&logo=tensorflow&logoColor=white" alt="机器学习" />
-      <img src="https://img.shields.io/badge/Game_AI-5C2D91?style=for-the-badge&logo=unity&logoColor=white" alt="游戏AI" />
-      <img src="https://img.shields.io/badge/Procedural_Generation-E34F26?style=for-the-badge&logo=unity&logoColor=white" alt="程序生成" />
-    </div>
-  </div>
+[![VillageMap](https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=VillageMap&theme=default)](https://github.com/Owl23007/VillageMap)
+[![ContinuityIns-Frontend](https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=ContinuityIns-Frontend&theme=default)](https://github.com/Owl23007/ContinuityIns-Frontend)
 
 </div>
 
@@ -119,7 +76,7 @@
 
 <div align="center" style="margin: 40px 0;">
   <a href="mailto:mailofowlwork@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"  alt="Gmail" />
   </a>
   <a href="https://github.com/Owl23007">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
