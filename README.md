@@ -56,10 +56,10 @@
 
 <p align="center">
   <a href="https://github.com/Owl23007">
-    <img height="200" align="center" src="https://github-readme-stats.vercel.app/api?username=Owl23007&show_icons=true&count_private=true&include_all_commits=true&theme=default&hide=contrib" />
+    <img height="200" align="center" src="https://github-readme-stats.vercel.app/api?username=Owl23007&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&theme=default&hide=contrib" />
   </a>
   <a href="https://github.com/Owl23007">
-    <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Owl23007&layout=compact&langs_count=6&theme=default&card_width=240" />
+    <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Owl23007&layout=compact&hide_border=true&langs_count=6&theme=default&card_width=240" />
   </a>
 </p>
 
