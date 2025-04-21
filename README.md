@@ -54,12 +54,15 @@
 
 ## 📊 数据看板
 
-<div align="center">
-  
-![GitHub统计](https://github-readme-stats.vercel.app/api?username=Owl23007&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=default&hide=contribs&card_width=400)
-![常用语言](https://github-readme-stats.vercel.app/api/top-langs/?username=Owl23007&layout=compact&hide_border=true&langs_count=6&card_width=300&theme=default)
+<p align="center">
+  <a href="https://github.com/Owl23007">
+    <img height="200" align="center" src="https://github-readme-stats.vercel.app/api?username=Owl23007&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&theme=default&hide=contribs" />
+  </a>
+  <a href="https://github.com/Owl23007">
+    <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Owl23007&layout=compact&hide_border=true&langs_count=6&theme=default" />
+  </a>
+</p>
 
-</div>
 
 ## 🏆 精选项目
 
