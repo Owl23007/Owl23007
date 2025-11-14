@@ -23,7 +23,7 @@ Hi, I'm **Owl23007**, a developer building tools at the intersection of tech and
 
 ### 🏗️ WIP
 
-<div align="center">
+<div>
   <p>
   <href="https://github.com/Owl23007/simple-my-blog">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=simple-my-blog&theme=default" alt="simple-my-blog" />
@@ -32,9 +32,9 @@ Hi, I'm **Owl23007**, a developer building tools at the intersection of tech and
   </p>
 </div>
 
-#### 📈 stats
+### 📈 stats
 
-<div align="center">
+<div>
   <p href="https://github.com/Owl23007">
     <img height="170" src="https://github-readme-stats.vercel.app/api?username=Owl23007&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&theme=transparent&rank_icon=github" />
  <href="https://github.com/Owl23007">
