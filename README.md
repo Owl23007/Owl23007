@@ -1,4 +1,4 @@
-#### 👋 About Me
+### 👋 About Me
 
 Hi, I'm **Owl23007**, a developer building tools at the intersection of tech and creativity.
 
@@ -8,7 +8,7 @@ Hi, I'm **Owl23007**, a developer building tools at the intersection of tech and
     <img src="https://img.shields.io/badge/      🎓_Status-Learning-00d26a?style=flat&logoColor=white" alt="Status" />
   </p>
 
-#### 🧪 Learning
+### 🧪 Learning
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -21,7 +21,7 @@ Hi, I'm **Owl23007**, a developer building tools at the intersection of tech and
   <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
 </p>
 
-#### 🏗️ WIP
+### 🏗️ WIP
 
 <div align="center">
   <p>
@@ -29,12 +29,10 @@ Hi, I'm **Owl23007**, a developer building tools at the intersection of tech and
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=simple-my-blog&theme=default" alt="simple-my-blog" />
   <href="https://github.com/Owl23007/Linx">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=Linx&theme=default" alt="Linx" />
-  <href="https://github.com/Owl23007/synapse-android">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=synapse-android&theme=default" alt="synapse-android" />
   </p>
 </div>
 
-##### 📈 stats
+#### 📈 stats
 
 <div align="center">
   <a href="https://github.com/Owl23007">
@@ -45,7 +43,7 @@ Hi, I'm **Owl23007**, a developer building tools at the intersection of tech and
   </a>
 </div>
 
-#### 📮 contact me
+### 📮 contact me
 
 <div>
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
