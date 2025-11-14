@@ -1,97 +1,53 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=58c7f3&height=200&section=header&text=oii_woof%20|%20沃以&fontSize=40&fontColor=ffffff&animation=fadeIn" width="100%" alt="动态波浪标题" [[1]]/>
+#### 👋 About Me
 
-  <p style="font-size: 1.5em; color: #58c7f3; margin: 20px 0;">
-    ✨ 当代码邂逅艺术 ✨
+Hi, I'm **Owl23007**, a developer building tools at the intersection of tech and creativity.
+
+  <p>
+    <img src="https://img.shields.io/badge/      💡_Focus-Interesting%20Tools-58c7f3?style=flat&logoColor=white" alt="Focus" />
+    <img src="https://img.shields.io/badge/      📍_Location-Wuhan,_China-ff6b6b?style=flat&logoColor=white" alt="Location" />
+    <img src="https://img.shields.io/badge/      🎓_Status-Learning-00d26a?style=flat&logoColor=white" alt="Status" />
   </p>
-  
-  <p style="margin-bottom: 30px;">
-    🎮 游戏开发探索者 | 🎨 创意编程实践者 | 🔍 新技术追逐者
-  </p>
-</div>
 
----
+#### 🧪 Learning
 
-## 🌟 关于我
-
-> 用代码编织艺术，用算法创造世界。在游戏开发与生成艺术的交叉领域持续探索，追求技术与美学的完美平衡。
-
----
-
-## 🛠️ 技术栈
-
-<div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 20px;">
-  
-  <div class="tech-section">
-    <h3>🎮 游戏引擎</h3>
-    <div class="tech-icons">
-      <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity" />
-      <img src="https://img.shields.io/badge/Unreal-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white" alt="Unreal Engine" />
-    </div>
-  </div>
-
-  <div class="tech-section">
-    <h3>💻 编程语言</h3>
-    <div class="tech-icons">
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/CSharp-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-      <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-    </div>
-  </div>
-
-  <div class="tech-section">
-    <h3>🎨 创意工具</h3>
-    <div class="tech-icons">
-      <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" alt="Blender" />
-      <img src="https://img.shields.io/badge/FL_Studio-000000?style=for-the-badge&logo=flstudio&logoColor=white" alt="FL Studio" />
-      <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white" alt="Photoshop" />
-    </div>
-  </div>
-
-</div>
-
----
-
-## 📊 数据看板
-
-<p align="center">
-  <a href="https://github.com/Owl23007">
-    <img height="200" align="center" src="https://github-readme-stats.vercel.app/api?username=Owl23007&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&theme=default&hide=contrib" />
-  </a>
-  <a href="https://github.com/Owl23007">
-    <img height="200" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Owl23007&layout=compact&hide_border=true&langs_count=6&theme=default&card_width=240" />
-  </a>
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white" alt="Unity" />
+  <img src="https://img.shields.io/badge/Vue-42b883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
+  <img src="https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white" alt="Blender" />
+  <img src="https://img.shields.io/badge/FL%20Studio-FB5607?style=flat-square&logo=flstudio&logoColor=white" alt="FL Studio" />
+  <img src="https://img.shields.io/badge/Electron-171515?style=flat-square&logo=electron&logoColor=white" alt="Electron" />
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
 </p>
 
-
-## 🏆 精选项目
+#### 🏗️ WIP
 
 <div align="center">
-  
-[![VillageMap](https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=VillageMap&theme=default)](https://github.com/Owl23007/VillageMap)
-[![ContinuityIns-Frontend](https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=ContinuityIns-Frontend&theme=default)](https://github.com/Owl23007/ContinuityIns-Frontend)
-
+  <p>
+  <href="https://github.com/Owl23007/simple-my-blog">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=simple-my-blog&theme=default" alt="simple-my-blog" />
+  <href="https://github.com/Owl23007/Linx">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=Linx&theme=default" alt="Linx" />
+  <href="https://github.com/Owl23007/synapse-android">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=synapse-android&theme=default" alt="synapse-android" />
+  </p>
 </div>
 
----
+##### 📈 stats
 
-## 🌐 联系方式
-
-<div align="center" style="margin: 40px 0;">
-  <a href="mailto:mailofowlwork@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"  alt="Gmail" />
+<div align="center">
+  <a href="https://github.com/Owl23007">
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=Owl23007&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&theme=transparent&rank_icon=github" />
   </a>
   <a href="https://github.com/Owl23007">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Owl23007&layout=compact&hide_border=true&langs_count=6&theme=transparent&card_width=240" />
   </a>
 </div>
 
-<div align="center" style="margin: 40px 0;">
-  <img src="https://raw.githubusercontent.com/AnderMendoza/AnderMendoza/main/assets/line-neon.gif" width="100%" alt="动态分隔线" />
-</div>
+#### 📮 contact me
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Owl23007&color=58c7f3&style=flat-square" alt="访客计数" />
-  <p style="color: #8B8B8B; margin: 10px 0;">"代码如诗，创意无限"</p>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=58c7f3&height=100&section=footer" width="100%" alt="动态波浪页脚" [[1]]/>
+<div>
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </div>
