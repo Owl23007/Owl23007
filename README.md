@@ -1,6 +1,7 @@
 ### 👋 About Me
 
-Hi, I'm **Owl23007**, a developer building tools at the intersection of tech and creativity.
+Hi, I'm Owl23007 (沃以), a tinkerer from Wuhan, China.
+> Building weird tools, one curiosity at a time.
 
   <p>
     <img src="https://img.shields.io/badge/      💡_Focus-Interesting%20Tools-58c7f3?style=flat&logoColor=white" alt="Focus" />
@@ -32,7 +33,7 @@ Hi, I'm **Owl23007**, a developer building tools at the intersection of tech and
   </p>
 </div>
 
-### 📈 stats
+### 📈 Stats
 
 <div>
   <p href="https://github.com/Owl23007">
@@ -42,9 +43,6 @@ Hi, I'm **Owl23007**, a developer building tools at the intersection of tech and
   </p>
 </div>
 
-### 📮 contact me
+### 📮 Contact Me
 
-<div>
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</div>
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mailofowlwork@gmail.com) [![My Website](https://img.shields.io/badge/My%20Website-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://owl23007.github.io/simple-my-blog/)
