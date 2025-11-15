@@ -24,16 +24,8 @@ Hi, I'm Owl23007 (沃以), a tinkerer from Wuhan, China.
 
 ### 🏗️ WIP
 
-<div>
-  <p>
-  <href="https://github.com/Owl23007/simple-my-blog">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=simple-my-blog&theme=default" alt="simple-my-blog" />
-  </href>
-  <href="https://github.com/Owl23007/Linx">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=Linx&theme=default" alt="Linx" />
-  </href>  
-  </p>
-</div>
+[![simple-my-blog](https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=simple-my-blog&theme=default)](https://github.com/Owl23007/simple-my-blog)
+[![Linx](https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=Linx&theme=default)](https://github.com/Owl23007/Linx)
 
 ### 📈 Stats
 
