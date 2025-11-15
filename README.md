@@ -39,4 +39,4 @@ Hi, I'm Owl23007 (沃以), a tinkerer from Wuhan, China.
 
 ### 📮 Contact Me
 
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mailofowlwork@gmail.com) [![My Website](https://img.shields.io/badge/My%20Website-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://owl23007.github.io/simple-my-blog/)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mailofowlwork@gmail.com) [![My Website](https://img.shields.io/badge/My%20Website-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://owl23007.github.io/)
