@@ -10,16 +10,16 @@
   
   <rect width="495" height="195" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="4.5"/>
   
-  <text x="25" y="35" class="header">Owl23007's GitHub Stats</text>
+  <text x="25" y="35" class="header">Oii's GitHub Stats</text>
   
   <g transform="translate(25, 70)">
     <text y="0" class="stat-label">Total Repos:</text>
-    <text x="200" y="0" class="stat-value">0</text>
+    <text x="200" y="0" class="stat-value">16</text>
   </g>
   
   <g transform="translate(25, 95)">
     <text y="0" class="stat-label">Total Stars:</text>
-    <text x="200" y="0" class="stat-value">0</text>
+    <text x="200" y="0" class="stat-value">15</text>
   </g>
   
   <g transform="translate(25, 120)">
@@ -29,12 +29,12 @@
   
   <g transform="translate(25, 145)">
     <text y="0" class="stat-label">Followers:</text>
-    <text x="200" y="0" class="stat-value">0</text>
+    <text x="200" y="0" class="stat-value">4</text>
   </g>
   
   <g transform="translate(270, 70)">
     <text y="0" class="stat-label">Following:</text>
-    <text x="150" y="0" class="stat-value">0</text>
+    <text x="150" y="0" class="stat-value">5</text>
   </g>
   
   <text x="470" y="185" style="fill: #8b949e; font-size: 10px;" text-anchor="end">Updated 2026-02-14</text>

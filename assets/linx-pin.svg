@@ -11,15 +11,15 @@
   <rect width="400" height="120" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="4.5"/>
   
   <text x="15" y="30" class="repo-name">Linx</text>
-  <text x="15" y="55" class="repo-desc">Repository information</text>
+  <text x="15" y="55" class="repo-desc">A modern desktop instant messaging application built with...</text>
   
   <g transform="translate(15, 90)">
     <circle cx="5" cy="-3" r="5" fill="#f1e05a"/>
-    <text x="15" y="0" class="repo-lang">Unknown</text>
+    <text x="15" y="0" class="repo-lang">Java</text>
   </g>
   
   <g transform="translate(150, 90)">
-    <text y="0" class="repo-stat">⭐ 0</text>
+    <text y="0" class="repo-stat">⭐ 1</text>
   </g>
   
   <g transform="translate(230, 90)">
