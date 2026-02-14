@@ -1,14 +1,14 @@
 <svg width="240" height="195" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .lang-name { fill: #c9d1d9; font-size: 12px; }
-      .lang-percent { fill: #8b949e; font-size: 11px; }
+      .lang-name { fill: #ffffff; font-size: 12px; }
+      .lang-percent { fill: #ffffff; font-size: 11px; }
     </style>
   </defs>
   
   <rect width="240" height="195" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="4.5"/>
   
-  <text x="120" y="30" style="fill: #58a6ff; font-size: 16px; font-weight: 600;" text-anchor="middle">Top Languages</text>
+  <text x="120" y="30" style="fill: #ffffff; font-size: 16px; font-weight: 600;" text-anchor="middle">Top Languages</text>
 
   <g transform="translate(20, 60)">
     <circle cx="5" cy="-3" r="5" fill="#e34c26"/>
@@ -40,5 +40,5 @@
     <text x="15" y="0" class="lang-name">CSS</text>
     <text x="200" y="0" class="lang-percent" text-anchor="end">8.6%</text>
   </g>
-  <text x="220" y="185" style="fill: #8b949e; font-size: 10px;" text-anchor="end">Updated 2026-02-14</text>
+  <text x="220" y="185" style="fill: #ffffff; font-size: 10px;" text-anchor="end">Updated 2026-02-14</text>
 </svg>

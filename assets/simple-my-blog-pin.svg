@@ -1,10 +1,10 @@
 <svg width="400" height="120" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .repo-name { fill: #58a6ff; font-size: 16px; font-weight: 600; }
-      .repo-desc { fill: #8b949e; font-size: 12px; }
-      .repo-stat { fill: #8b949e; font-size: 12px; }
-      .repo-lang { fill: #c9d1d9; font-size: 12px; }
+      .repo-name { fill: #ffffff; font-size: 16px; font-weight: 600; }
+      .repo-desc { fill: #ffffff; font-size: 12px; }
+      .repo-stat { fill: #ffffff; font-size: 12px; }
+      .repo-lang { fill: #ffffff; font-size: 12px; }
     </style>
   </defs>
   
@@ -15,7 +15,7 @@
   
   <g transform="translate(15, 90)">
     <circle cx="5" cy="-3" r="5" fill="#f1e05a"/>
-    <text x="15" y="0" class="repo-lang">None</text>
+    <text x="15" y="0" class="repo-lang">Unknown</text>
   </g>
   
   <g transform="translate(150, 90)">

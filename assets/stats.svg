@@ -1,10 +1,10 @@
 <svg width="495" height="195" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .header { fill: #58a6ff; font-size: 18px; font-weight: 600; }
-      .stat-label { fill: #8b949e; font-size: 14px; }
-      .stat-value { fill: #c9d1d9; font-size: 14px; font-weight: 600; }
-      .icon { fill: #58a6ff; }
+      .header { fill: #ffffff; font-size: 18px; font-weight: 600; }
+      .stat-label { fill: #ffffff; font-size: 14px; }
+      .stat-value { fill: #ffffff; font-size: 14px; font-weight: 600; }
+      .icon { fill: #ffffff; }
     </style>
   </defs>
   
@@ -37,5 +37,5 @@
     <text x="150" y="0" class="stat-value">5</text>
   </g>
   
-  <text x="470" y="185" style="fill: #8b949e; font-size: 10px;" text-anchor="end">Updated 2026-02-14</text>
+  <text x="470" y="185" style="fill: #ffffff; font-size: 10px;" text-anchor="end">Updated 2026-02-14</text>
 </svg>

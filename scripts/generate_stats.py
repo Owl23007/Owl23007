@@ -142,7 +142,7 @@ def get_repo_info(username, repo_name, token):
                 'description': data.get('description', 'No description provided'),
                 'stars': data.get('stargazers_count', 0),
                 'forks': data.get('forks_count', 0),
-                'language': data.get('language', 'Unknown')
+                'language': data.get('language') or 'Unknown'
             }
     except Exception as e:
         print(f"Error fetching repo {repo_name}: {e}")
@@ -162,10 +162,10 @@ def generate_stats_card(stats):
     svg = f'''<svg width="495" height="195" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .header {{ fill: #58a6ff; font-size: 18px; font-weight: 600; }}
-      .stat-label {{ fill: #8b949e; font-size: 14px; }}
-      .stat-value {{ fill: #c9d1d9; font-size: 14px; font-weight: 600; }}
-      .icon {{ fill: #58a6ff; }}
+      .header {{ fill: #ffffff; font-size: 18px; font-weight: 600; }}
+      .stat-label {{ fill: #ffffff; font-size: 14px; }}
+      .stat-value {{ fill: #ffffff; font-size: 14px; font-weight: 600; }}
+      .icon {{ fill: #ffffff; }}
     </style>
   </defs>
   
@@ -198,7 +198,7 @@ def generate_stats_card(stats):
     <text x="150" y="0" class="stat-value">{stats['following']}</text>
   </g>
   
-  <text x="470" y="185" style="fill: #8b949e; font-size: 10px;" text-anchor="end">Updated {datetime.now().strftime('%Y-%m-%d')}</text>
+  <text x="470" y="185" style="fill: #ffffff; font-size: 10px;" text-anchor="end">Updated {datetime.now().strftime('%Y-%m-%d')}</text>
 </svg>'''
     return svg
 
@@ -231,14 +231,14 @@ def generate_languages_card(languages):
     svg_parts = ['''<svg width="240" height="195" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .lang-name { fill: #c9d1d9; font-size: 12px; }
-      .lang-percent { fill: #8b949e; font-size: 11px; }
+      .lang-name { fill: #ffffff; font-size: 12px; }
+      .lang-percent { fill: #ffffff; font-size: 11px; }
     </style>
   </defs>
   
   <rect width="240" height="195" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="4.5"/>
   
-  <text x="120" y="30" style="fill: #58a6ff; font-size: 16px; font-weight: 600;" text-anchor="middle">Top Languages</text>
+  <text x="120" y="30" style="fill: #ffffff; font-size: 16px; font-weight: 600;" text-anchor="middle">Top Languages</text>
 ''']
     
     y_offset = 60
@@ -254,7 +254,7 @@ def generate_languages_card(languages):
   </g>''')
     
     svg_parts.append(f'''
-  <text x="220" y="185" style="fill: #8b949e; font-size: 10px;" text-anchor="end">Updated {datetime.now().strftime('%Y-%m-%d')}</text>
+  <text x="220" y="185" style="fill: #ffffff; font-size: 10px;" text-anchor="end">Updated {datetime.now().strftime('%Y-%m-%d')}</text>
 </svg>''')
     
     return ''.join(svg_parts)
@@ -279,10 +279,10 @@ def generate_repo_pin_card(repo_info):
     svg = f'''<svg width="400" height="120" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
-      .repo-name {{ fill: #58a6ff; font-size: 16px; font-weight: 600; }}
-      .repo-desc {{ fill: #8b949e; font-size: 12px; }}
-      .repo-stat {{ fill: #8b949e; font-size: 12px; }}
-      .repo-lang {{ fill: #c9d1d9; font-size: 12px; }}
+      .repo-name {{ fill: #ffffff; font-size: 16px; font-weight: 600; }}
+      .repo-desc {{ fill: #ffffff; font-size: 12px; }}
+      .repo-stat {{ fill: #ffffff; font-size: 12px; }}
+      .repo-lang {{ fill: #ffffff; font-size: 12px; }}
     </style>
   </defs>
   
