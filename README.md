@@ -24,16 +24,16 @@ Hi, I'm Owl23007 (沃以), a tinkerer from Wuhan, China.
 
 ### 🏗️ WIP
 
-[![simple-my-blog](https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=simple-my-blog&theme=default)](https://github.com/Owl23007/simple-my-blog)
-[![Linx](https://github-readme-stats.vercel.app/api/pin/?username=Owl23007&repo=Linx&theme=default)](https://github.com/Owl23007/Linx)
+[![simple-my-blog](assets/simple-my-blog-pin.svg)](https://github.com/Owl23007/simple-my-blog)
+[![Linx](assets/linx-pin.svg)](https://github.com/Owl23007/Linx)
 
 ### 📈 Stats
 
 <div>
   <p href="https://github.com/Owl23007">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=Owl23007&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&theme=transparent&rank_icon=github" />
+    <img height="170" src="assets/stats.svg" />
  <href="https://github.com/Owl23007">
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Owl23007&layout=compact&hide_border=true&langs_count=6&theme=transparent&card_width=240" />
+    <img height="170" src="assets/top-langs.svg" />
   </p>
 </div>
 

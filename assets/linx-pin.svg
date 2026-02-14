@@ -1,0 +1,9 @@
+<svg width="400" height="120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="120" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="4.5"/>
+  <text x="200" y="50" font-family="Arial, sans-serif" font-size="16" fill="#58a6ff" text-anchor="middle" font-weight="bold">
+    Linx
+  </text>
+  <text x="200" y="80" font-family="Arial, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">
+    Repository info will be auto-updated
+  </text>
+</svg>

@@ -1,0 +1,75 @@
+name: Update Stats Images
+
+on:
+  schedule:
+    # Run every day at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches:
+      - main
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests pillow
+      
+      - name: Generate stats images
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python << 'EOF'
+          import requests
+          import os
+          
+          username = "Owl23007"
+          token = os.environ.get('GITHUB_TOKEN')
+          headers = {'Authorization': f'token {token}'} if token else {}
+          
+          # Download stats images from github-readme-stats
+          images = {
+              'stats.svg': f'https://github-readme-stats.vercel.app/api?username={username}&show_icons=true&count_private=true&hide_border=true&include_all_commits=true&theme=transparent&rank_icon=github',
+              'top-langs.svg': f'https://github-readme-stats.vercel.app/api/top-langs/?username={username}&layout=compact&hide_border=true&langs_count=6&theme=transparent&card_width=240',
+              'simple-my-blog-pin.svg': f'https://github-readme-stats.vercel.app/api/pin/?username={username}&repo=simple-my-blog&theme=default',
+              'linx-pin.svg': f'https://github-readme-stats.vercel.app/api/pin/?username={username}&repo=Linx&theme=default'
+          }
+          
+          os.makedirs('assets', exist_ok=True)
+          
+          for filename, url in images.items():
+              try:
+                  print(f"Downloading {filename}...")
+                  response = requests.get(url, timeout=30)
+                  if response.status_code == 200:
+                      with open(f'assets/{filename}', 'wb') as f:
+                          f.write(response.content)
+                      print(f"✓ Successfully downloaded {filename}")
+                  else:
+                      print(f"✗ Failed to download {filename}: Status {response.status_code}")
+              except Exception as e:
+                  print(f"✗ Error downloading {filename}: {e}")
+          
+          print("\nAll images processed!")
+          EOF
+      
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add assets/*.svg
+          git diff --staged --quiet || git commit -m "Update stats images [automated]"
+          git push

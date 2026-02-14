@@ -1,0 +1,9 @@
+<svg width="495" height="195" xmlns="http://www.w3.org/2000/svg">
+  <rect width="495" height="195" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="4.5"/>
+  <text x="247.5" y="97.5" font-family="Arial, sans-serif" font-size="16" fill="#c9d1d9" text-anchor="middle" dominant-baseline="middle">
+    GitHub Stats - Owl23007
+  </text>
+  <text x="247.5" y="125" font-family="Arial, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">
+    (This image will be automatically updated by GitHub Actions)
+  </text>
+</svg>
