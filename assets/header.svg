@@ -1,0 +1,31 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f2027"/>
+      <stop offset="30%" style="stop-color:#203a43"/>
+      <stop offset="60%" style="stop-color:#2c5364"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#70e1f5"/>
+      <stop offset="50%" style="stop-color:#89b4fa"/>
+      <stop offset="100%" style="stop-color:#cba6f7"/>
+    </linearGradient>
+    <style>
+      .title { fill: url(#text-gradient); font-size: 36px; font-weight: 700; font-family: 'Segoe UI', Ubuntu, sans-serif; }
+      .subtitle { fill: #a8dadc; font-size: 16px; font-family: 'Segoe UI', Ubuntu, sans-serif; }
+      .accent { fill: #cba6f7; font-size: 14px; font-family: 'Segoe UI', Ubuntu, sans-serif; font-style: italic; }
+    </style>
+  </defs>
+  
+  <rect width="800" height="200" fill="url(#bg)" rx="12"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="700" cy="40" r="60" fill="#70e1f5" opacity="0.05"/>
+  <circle cx="730" cy="150" r="40" fill="#cba6f7" opacity="0.05"/>
+  <circle cx="80" cy="160" r="50" fill="#89b4fa" opacity="0.05"/>
+  
+  <text x="400" y="80" class="title" text-anchor="middle">👋 Hey, I'm Owl23007</text>
+  <text x="400" y="115" class="subtitle" text-anchor="middle">aka 沃以 · Tinkerer from Wuhan, China 🇨🇳</text>
+  <text x="400" y="155" class="accent" text-anchor="middle">"Building weird tools, one curiosity at a time."</text>
+</svg>
