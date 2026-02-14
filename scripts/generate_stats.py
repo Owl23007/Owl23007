@@ -52,7 +52,7 @@ def get_github_stats(username, token):
             events = events_response.json() if events_response.status_code == 200 else []
             commit_events = [e for e in events if e.get('type') == 'PushEvent']
             recent_commits = sum(len(e.get('payload', {}).get('commits', [])) for e in commit_events)
-        except:
+        except (requests.RequestException, requests.JSONDecodeError, KeyError):
             recent_commits = 0
         
         return {
@@ -113,7 +113,7 @@ def get_top_languages(username, token):
                         for lang, bytes_count in languages.items():
                             if lang:
                                 language_stats[lang] = language_stats.get(lang, 0) + bytes_count
-                except:
+                except (requests.RequestException, requests.JSONDecodeError, KeyError):
                     continue
         
         # Sort by usage
@@ -339,11 +339,10 @@ def main():
         for repo_name, filename in repos_to_pin:
             print(f"Fetching {repo_name} info...")
             repo_info = get_repo_info(username, repo_name, token)
-            if repo_info:
-                repo_svg = generate_repo_pin_card(repo_info)
-                with open(f'assets/{filename}', 'w', encoding='utf-8') as f:
-                    f.write(repo_svg)
-                print(f"✓ Generated {filename}")
+            repo_svg = generate_repo_pin_card(repo_info)
+            with open(f'assets/{filename}', 'w', encoding='utf-8') as f:
+                f.write(repo_svg)
+            print(f"✓ Generated {filename}")
         
         print("\n✨ All stats generated successfully!")
         
