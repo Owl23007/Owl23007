@@ -142,7 +142,7 @@ def get_repo_info(username, repo_name, token):
                 'description': data.get('description', 'No description provided'),
                 'stars': data.get('stargazers_count', 0),
                 'forks': data.get('forks_count', 0),
-                'language': data.get('language', 'Unknown')
+                'language': data.get('language') or 'Unknown'
             }
     except Exception as e:
         print(f"Error fetching repo {repo_name}: {e}")
@@ -161,44 +161,50 @@ def generate_stats_card(stats):
     """Generate SVG for GitHub stats"""
     svg = f'''<svg width="495" height="195" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f2027"/>
+      <stop offset="50%" style="stop-color:#203a43"/>
+      <stop offset="100%" style="stop-color:#2c5364"/>
+    </linearGradient>
     <style>
-      .header {{ fill: #58a6ff; font-size: 18px; font-weight: 600; }}
-      .stat-label {{ fill: #8b949e; font-size: 14px; }}
-      .stat-value {{ fill: #c9d1d9; font-size: 14px; font-weight: 600; }}
-      .icon {{ fill: #58a6ff; }}
+      .header {{ fill: #70e1f5; font-size: 18px; font-weight: 600; font-family: 'Segoe UI', Ubuntu, sans-serif; }}
+      .stat-label {{ fill: #a8dadc; font-size: 14px; font-family: 'Segoe UI', Ubuntu, sans-serif; }}
+      .stat-value {{ fill: #ffffff; font-size: 14px; font-weight: 700; font-family: 'Segoe UI', Ubuntu, sans-serif; }}
+      .icon {{ fill: #70e1f5; }}
     </style>
   </defs>
   
-  <rect width="495" height="195" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="4.5"/>
+  <rect width="495" height="195" fill="url(#bg)" stroke="#3d5a80" stroke-width="1" rx="8"/>
   
-  <text x="25" y="35" class="header">{stats['name']}'s GitHub Stats</text>
+  <text x="25" y="35" class="header">✨ {stats['name']}'s GitHub Stats</text>
+  <line x1="25" y1="45" x2="470" y2="45" stroke="#3d5a80" stroke-width="0.5"/>
   
-  <g transform="translate(25, 70)">
-    <text y="0" class="stat-label">Total Repos:</text>
+  <g transform="translate(25, 72)">
+    <text y="0" class="stat-label">📁 Total Repos</text>
     <text x="200" y="0" class="stat-value">{stats['total_repos']}</text>
   </g>
   
-  <g transform="translate(25, 95)">
-    <text y="0" class="stat-label">Total Stars:</text>
+  <g transform="translate(25, 97)">
+    <text y="0" class="stat-label">⭐ Total Stars</text>
     <text x="200" y="0" class="stat-value">{stats['total_stars']}</text>
   </g>
   
-  <g transform="translate(25, 120)">
-    <text y="0" class="stat-label">Total Forks:</text>
+  <g transform="translate(25, 122)">
+    <text y="0" class="stat-label">🔱 Total Forks</text>
     <text x="200" y="0" class="stat-value">{stats['total_forks']}</text>
   </g>
   
-  <g transform="translate(25, 145)">
-    <text y="0" class="stat-label">Followers:</text>
+  <g transform="translate(25, 147)">
+    <text y="0" class="stat-label">👥 Followers</text>
     <text x="200" y="0" class="stat-value">{stats['followers']}</text>
   </g>
   
-  <g transform="translate(270, 70)">
-    <text y="0" class="stat-label">Following:</text>
+  <g transform="translate(270, 72)">
+    <text y="0" class="stat-label">➡️ Following</text>
     <text x="150" y="0" class="stat-value">{stats['following']}</text>
   </g>
   
-  <text x="470" y="185" style="fill: #8b949e; font-size: 10px;" text-anchor="end">Updated {datetime.now().strftime('%Y-%m-%d')}</text>
+  <text x="470" y="185" style="fill: #5c8a97; font-size: 10px; font-family: 'Segoe UI', Ubuntu, sans-serif;" text-anchor="end">Updated {datetime.now().strftime('%Y-%m-%d')}</text>
 </svg>'''
     return svg
 
@@ -226,19 +232,26 @@ def generate_languages_card(languages):
         'HTML': '#e34c26',
         'CSS': '#563d7c',
         'Shell': '#89e051',
+        'Kotlin': '#A97BFF',
     }
     
     svg_parts = ['''<svg width="240" height="195" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
     <style>
-      .lang-name { fill: #c9d1d9; font-size: 12px; }
-      .lang-percent { fill: #8b949e; font-size: 11px; }
+      .lang-name { fill: #e0e0e0; font-size: 12px; font-family: 'Segoe UI', Ubuntu, sans-serif; }
+      .lang-percent { fill: #a8dadc; font-size: 11px; font-family: 'Segoe UI', Ubuntu, sans-serif; }
     </style>
   </defs>
   
-  <rect width="240" height="195" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="4.5"/>
+  <rect width="240" height="195" fill="url(#bg)" stroke="#3d5a80" stroke-width="1" rx="8"/>
   
-  <text x="120" y="30" style="fill: #58a6ff; font-size: 16px; font-weight: 600;" text-anchor="middle">Top Languages</text>
+  <text x="120" y="30" style="fill: #70e1f5; font-size: 16px; font-weight: 600; font-family: 'Segoe UI', Ubuntu, sans-serif;" text-anchor="middle">🏆 Top Languages</text>
+  <line x1="20" y1="40" x2="220" y2="40" stroke="#3d5a80" stroke-width="0.5"/>
 ''']
     
     y_offset = 60
@@ -247,14 +260,14 @@ def generate_languages_card(languages):
         color = lang_colors.get(lang, '#858585')
         
         svg_parts.append(f'''
-  <g transform="translate(20, {y_offset + i * 20})">
+  <g transform="translate(20, {y_offset + i * 22})">
     <circle cx="5" cy="-3" r="5" fill="{color}"/>
     <text x="15" y="0" class="lang-name">{lang}</text>
     <text x="200" y="0" class="lang-percent" text-anchor="end">{percentage:.1f}%</text>
   </g>''')
     
     svg_parts.append(f'''
-  <text x="220" y="185" style="fill: #8b949e; font-size: 10px;" text-anchor="end">Updated {datetime.now().strftime('%Y-%m-%d')}</text>
+  <text x="220" y="185" style="fill: #5c8a97; font-size: 10px; font-family: 'Segoe UI', Ubuntu, sans-serif;" text-anchor="end">Updated {datetime.now().strftime('%Y-%m-%d')}</text>
 </svg>''')
     
     return ''.join(svg_parts)
@@ -276,31 +289,44 @@ def generate_repo_pin_card(repo_info):
     if len(desc) > 60:
         desc = desc[:57] + '...'
     
+    # Language-specific colors
+    lang_colors = {
+        'Python': '#3572A5', 'JavaScript': '#f1e05a', 'TypeScript': '#2b7489',
+        'Java': '#b07219', 'C++': '#f34b7d', 'C': '#555555', 'Go': '#00ADD8',
+        'Rust': '#dea584', 'Vue': '#41b883', 'HTML': '#e34c26', 'CSS': '#563d7c',
+        'Kotlin': '#A97BFF', 'Shell': '#89e051',
+    }
+    lang_color = lang_colors.get(repo_info['language'], '#858585')
+    
     svg = f'''<svg width="400" height="120" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1e2e"/>
+      <stop offset="100%" style="stop-color:#302d41"/>
+    </linearGradient>
     <style>
-      .repo-name {{ fill: #58a6ff; font-size: 16px; font-weight: 600; }}
-      .repo-desc {{ fill: #8b949e; font-size: 12px; }}
-      .repo-stat {{ fill: #8b949e; font-size: 12px; }}
-      .repo-lang {{ fill: #c9d1d9; font-size: 12px; }}
+      .repo-name {{ fill: #89b4fa; font-size: 16px; font-weight: 600; font-family: 'Segoe UI', Ubuntu, sans-serif; }}
+      .repo-desc {{ fill: #a6adc8; font-size: 12px; font-family: 'Segoe UI', Ubuntu, sans-serif; }}
+      .repo-stat {{ fill: #cdd6f4; font-size: 12px; font-family: 'Segoe UI', Ubuntu, sans-serif; }}
+      .repo-lang {{ fill: #cdd6f4; font-size: 12px; font-family: 'Segoe UI', Ubuntu, sans-serif; }}
     </style>
   </defs>
   
-  <rect width="400" height="120" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="4.5"/>
+  <rect width="400" height="120" fill="url(#bg)" stroke="#45475a" stroke-width="1" rx="8"/>
   
-  <text x="15" y="30" class="repo-name">{repo_info['name']}</text>
+  <text x="15" y="30" class="repo-name">📦 {repo_info['name']}</text>
   <text x="15" y="55" class="repo-desc">{desc}</text>
   
-  <g transform="translate(15, 90)">
-    <circle cx="5" cy="-3" r="5" fill="#f1e05a"/>
+  <g transform="translate(15, 95)">
+    <circle cx="5" cy="-3" r="5" fill="{lang_color}"/>
     <text x="15" y="0" class="repo-lang">{repo_info['language']}</text>
   </g>
   
-  <g transform="translate(150, 90)">
+  <g transform="translate(150, 95)">
     <text y="0" class="repo-stat">⭐ {repo_info['stars']}</text>
   </g>
   
-  <g transform="translate(230, 90)">
+  <g transform="translate(230, 95)">
     <text y="0" class="repo-stat">🔱 {repo_info['forks']}</text>
   </g>
 </svg>'''

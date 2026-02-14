@@ -1,28 +1,32 @@
 <svg width="400" height="120" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1e2e"/>
+      <stop offset="100%" style="stop-color:#302d41"/>
+    </linearGradient>
     <style>
-      .repo-name { fill: #58a6ff; font-size: 16px; font-weight: 600; }
-      .repo-desc { fill: #8b949e; font-size: 12px; }
-      .repo-stat { fill: #8b949e; font-size: 12px; }
-      .repo-lang { fill: #c9d1d9; font-size: 12px; }
+      .repo-name { fill: #89b4fa; font-size: 16px; font-weight: 600; font-family: 'Segoe UI', Ubuntu, sans-serif; }
+      .repo-desc { fill: #a6adc8; font-size: 12px; font-family: 'Segoe UI', Ubuntu, sans-serif; }
+      .repo-stat { fill: #cdd6f4; font-size: 12px; font-family: 'Segoe UI', Ubuntu, sans-serif; }
+      .repo-lang { fill: #cdd6f4; font-size: 12px; font-family: 'Segoe UI', Ubuntu, sans-serif; }
     </style>
   </defs>
   
-  <rect width="400" height="120" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="4.5"/>
+  <rect width="400" height="120" fill="url(#bg)" stroke="#45475a" stroke-width="1" rx="8"/>
   
-  <text x="15" y="30" class="repo-name">simple-my-blog</text>
+  <text x="15" y="30" class="repo-name">📦 simple-my-blog</text>
   <text x="15" y="55" class="repo-desc">A personal introduction website quickly built with VitePr...</text>
   
-  <g transform="translate(15, 90)">
-    <circle cx="5" cy="-3" r="5" fill="#f1e05a"/>
-    <text x="15" y="0" class="repo-lang">None</text>
+  <g transform="translate(15, 95)">
+    <circle cx="5" cy="-3" r="5" fill="#858585"/>
+    <text x="15" y="0" class="repo-lang">Unknown</text>
   </g>
   
-  <g transform="translate(150, 90)">
+  <g transform="translate(150, 95)">
     <text y="0" class="repo-stat">⭐ 9</text>
   </g>
   
-  <g transform="translate(230, 90)">
+  <g transform="translate(230, 95)">
     <text y="0" class="repo-stat">🔱 0</text>
   </g>
 </svg>

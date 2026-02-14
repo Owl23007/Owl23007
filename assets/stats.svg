@@ -1,41 +1,47 @@
 <svg width="495" height="195" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f2027"/>
+      <stop offset="50%" style="stop-color:#203a43"/>
+      <stop offset="100%" style="stop-color:#2c5364"/>
+    </linearGradient>
     <style>
-      .header { fill: #58a6ff; font-size: 18px; font-weight: 600; }
-      .stat-label { fill: #8b949e; font-size: 14px; }
-      .stat-value { fill: #c9d1d9; font-size: 14px; font-weight: 600; }
-      .icon { fill: #58a6ff; }
+      .header { fill: #70e1f5; font-size: 18px; font-weight: 600; font-family: 'Segoe UI', Ubuntu, sans-serif; }
+      .stat-label { fill: #a8dadc; font-size: 14px; font-family: 'Segoe UI', Ubuntu, sans-serif; }
+      .stat-value { fill: #ffffff; font-size: 14px; font-weight: 700; font-family: 'Segoe UI', Ubuntu, sans-serif; }
+      .icon { fill: #70e1f5; }
     </style>
   </defs>
   
-  <rect width="495" height="195" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="4.5"/>
+  <rect width="495" height="195" fill="url(#bg)" stroke="#3d5a80" stroke-width="1" rx="8"/>
   
-  <text x="25" y="35" class="header">Oii's GitHub Stats</text>
+  <text x="25" y="35" class="header">✨ Oii's GitHub Stats</text>
+  <line x1="25" y1="45" x2="470" y2="45" stroke="#3d5a80" stroke-width="0.5"/>
   
-  <g transform="translate(25, 70)">
-    <text y="0" class="stat-label">Total Repos:</text>
+  <g transform="translate(25, 72)">
+    <text y="0" class="stat-label">📁 Total Repos</text>
     <text x="200" y="0" class="stat-value">16</text>
   </g>
   
-  <g transform="translate(25, 95)">
-    <text y="0" class="stat-label">Total Stars:</text>
+  <g transform="translate(25, 97)">
+    <text y="0" class="stat-label">⭐ Total Stars</text>
     <text x="200" y="0" class="stat-value">15</text>
   </g>
   
-  <g transform="translate(25, 120)">
-    <text y="0" class="stat-label">Total Forks:</text>
+  <g transform="translate(25, 122)">
+    <text y="0" class="stat-label">🔱 Total Forks</text>
     <text x="200" y="0" class="stat-value">0</text>
   </g>
   
-  <g transform="translate(25, 145)">
-    <text y="0" class="stat-label">Followers:</text>
+  <g transform="translate(25, 147)">
+    <text y="0" class="stat-label">👥 Followers</text>
     <text x="200" y="0" class="stat-value">4</text>
   </g>
   
-  <g transform="translate(270, 70)">
-    <text y="0" class="stat-label">Following:</text>
+  <g transform="translate(270, 72)">
+    <text y="0" class="stat-label">➡️ Following</text>
     <text x="150" y="0" class="stat-value">5</text>
   </g>
   
-  <text x="470" y="185" style="fill: #8b949e; font-size: 10px;" text-anchor="end">Updated 2026-02-14</text>
+  <text x="470" y="185" style="fill: #5c8a97; font-size: 10px; font-family: 'Segoe UI', Ubuntu, sans-serif;" text-anchor="end">Updated 2026-02-14</text>
 </svg>
