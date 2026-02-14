@@ -9,20 +9,34 @@
 - 外部服务的可靠性和访问速度问题
 
 ### 解决方案
-本仓库现在使用自托管的图片解决方案：
+本仓库现在使用**完全自主的统计图片生成方案**，不依赖任何第三方服务：
 
-1. **GitHub Actions 工作流**：每天自动更新统计图片
+1. **自定义统计生成脚本**：`scripts/generate_stats.py`
+   - 直接使用 GitHub API 获取数据
+   - 生成精美的 SVG 统计卡片
+   - 支持自定义样式和布局
+
+2. **GitHub Actions 自动化工作流**：每天自动更新统计图片
    - 文件位置：`.github/workflows/update-stats.yml`
    - 运行时间：每天 UTC 00:00
    - 也可以手动触发运行
 
-2. **本地图片存储**：所有图片存储在 `assets/` 目录
-   - `stats.svg` - GitHub 统计卡片
-   - `top-langs.svg` - 常用语言统计
+3. **本地图片存储**：所有图片存储在 `assets/` 目录
+   - `stats.svg` - GitHub 统计卡片（仓库数、star、fork、关注者等）
+   - `top-langs.svg` - 常用编程语言统计
    - `simple-my-blog-pin.svg` - simple-my-blog 仓库卡片
    - `linx-pin.svg` - Linx 仓库卡片
 
-3. **README 更新**：所有图片引用已更新为本地路径
+4. **README 更新**：所有图片引用已更新为本地路径
+
+### 功能特点
+
+- ✅ **完全自主**：不依赖任何第三方服务（vercel.app、camo等）
+- ✅ **使用 GitHub API**：直接从 GitHub 获取最新数据
+- ✅ **自动更新**：每天自动运行，保持数据最新
+- ✅ **可靠稳定**：图片存储在仓库中，永远可访问
+- ✅ **高度可定制**：可以自由修改脚本来调整样式和内容
+- ✅ **无限制**：不受第三方服务限流影响
 
 ### 如何手动触发更新
 
@@ -32,13 +46,31 @@
 4. 点击 "Run workflow" 按钮
 5. 选择分支并运行
 
-### 自定义
+### 自定义统计卡片
 
-如果需要修改统计卡片的样式或参数：
+如果需要修改统计卡片的样式、颜色或内容：
 
-1. 编辑 `.github/workflows/update-stats.yml` 文件
-2. 在 `images` 字典中修改 URL 参数
-3. 提交更改后，工作流会在下次运行时使用新参数
+1. 编辑 `scripts/generate_stats.py` 文件
+2. 修改相应的生成函数：
+   - `generate_stats_card()` - 修改统计卡片样式
+   - `generate_languages_card()` - 修改语言卡片样式
+   - `generate_repo_pin_card()` - 修改仓库卡片样式
+3. 提交更改后，工作流会在下次运行时使用新样式
+
+### 添加更多仓库卡片
+
+要显示更多仓库的卡片：
+
+1. 编辑 `scripts/generate_stats.py` 文件
+2. 在 `repos_to_pin` 列表中添加仓库：
+   ```python
+   repos_to_pin = [
+       ('simple-my-blog', 'simple-my-blog-pin.svg'),
+       ('Linx', 'linx-pin.svg'),
+       ('your-new-repo', 'your-new-repo-pin.svg')  # 添加这里
+   ]
+   ```
+3. 在 README.md 中添加对应的图片引用
 
 ---
 
@@ -49,20 +81,34 @@
 - Reliability and access speed issues with external services
 
 ### Solution
-This repository now uses a self-hosted images solution:
+This repository now uses a **completely autonomous stats generation solution** without any third-party dependencies:
 
-1. **GitHub Actions Workflow**: Automatically updates stats images daily
+1. **Custom Stats Generation Script**: `scripts/generate_stats.py`
+   - Directly uses GitHub API to fetch data
+   - Generates beautiful SVG stats cards
+   - Supports custom styling and layouts
+
+2. **GitHub Actions Automated Workflow**: Automatically updates stats images daily
    - Location: `.github/workflows/update-stats.yml`
    - Schedule: Daily at 00:00 UTC
    - Can also be triggered manually
 
-2. **Local Image Storage**: All images stored in `assets/` directory
-   - `stats.svg` - GitHub stats card
-   - `top-langs.svg` - Top languages card
+3. **Local Image Storage**: All images stored in `assets/` directory
+   - `stats.svg` - GitHub stats card (repos, stars, forks, followers, etc.)
+   - `top-langs.svg` - Top programming languages statistics
    - `simple-my-blog-pin.svg` - simple-my-blog repository card
    - `linx-pin.svg` - Linx repository card
 
-3. **README Updates**: All image references updated to local paths
+4. **README Updates**: All image references updated to local paths
+
+### Features
+
+- ✅ **Fully Autonomous**: No dependency on third-party services (vercel.app, camo, etc.)
+- ✅ **Uses GitHub API**: Fetches latest data directly from GitHub
+- ✅ **Automatic Updates**: Runs daily to keep data fresh
+- ✅ **Reliable & Stable**: Images stored in repository, always accessible
+- ✅ **Highly Customizable**: Freely modify scripts to adjust styles and content
+- ✅ **No Limits**: Not affected by third-party service rate limits
 
 ### How to Manually Trigger Update
 
@@ -72,18 +118,36 @@ This repository now uses a self-hosted images solution:
 4. Click "Run workflow" button
 5. Select branch and run
 
-### Customization
+### Customize Stats Cards
 
-To modify the style or parameters of stats cards:
+To modify the style, colors, or content of stats cards:
 
-1. Edit `.github/workflows/update-stats.yml` file
-2. Modify URL parameters in the `images` dictionary
-3. After committing changes, the workflow will use new parameters on next run
+1. Edit `scripts/generate_stats.py` file
+2. Modify the corresponding generation functions:
+   - `generate_stats_card()` - Modify stats card style
+   - `generate_languages_card()` - Modify languages card style
+   - `generate_repo_pin_card()` - Modify repository card style
+3. After committing changes, the workflow will use new styles on next run
 
-### Benefits
+### Add More Repository Cards
 
-- ✅ **Reliable**: Images are stored in your repository, always accessible
-- ✅ **Fast**: No dependency on external services
-- ✅ **Automatic**: Updates daily without manual intervention
-- ✅ **Customizable**: Easy to modify parameters and styles
-- ✅ **Self-contained**: All dependencies managed within the repository
+To display more repository cards:
+
+1. Edit `scripts/generate_stats.py` file
+2. Add repositories to the `repos_to_pin` list:
+   ```python
+   repos_to_pin = [
+       ('simple-my-blog', 'simple-my-blog-pin.svg'),
+       ('Linx', 'linx-pin.svg'),
+       ('your-new-repo', 'your-new-repo-pin.svg')  # Add here
+   ]
+   ```
+3. Add corresponding image references in README.md
+
+### Technical Details
+
+The solution consists of:
+- **Python script** that uses GitHub REST API v3
+- **SVG generation** with inline styles for GitHub dark theme
+- **Automatic commits** via GitHub Actions bot
+- **Error handling** with fallback values when API is unavailable

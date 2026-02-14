@@ -1,9 +1,28 @@
 <svg width="400" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .repo-name { fill: #58a6ff; font-size: 16px; font-weight: 600; }
+      .repo-desc { fill: #8b949e; font-size: 12px; }
+      .repo-stat { fill: #8b949e; font-size: 12px; }
+      .repo-lang { fill: #c9d1d9; font-size: 12px; }
+    </style>
+  </defs>
+  
   <rect width="400" height="120" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="4.5"/>
-  <text x="200" y="50" font-family="Arial, sans-serif" font-size="16" fill="#58a6ff" text-anchor="middle" font-weight="bold">
-    simple-my-blog
-  </text>
-  <text x="200" y="80" font-family="Arial, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle">
-    Repository info will be auto-updated
-  </text>
+  
+  <text x="15" y="30" class="repo-name">simple-my-blog</text>
+  <text x="15" y="55" class="repo-desc">Repository information</text>
+  
+  <g transform="translate(15, 90)">
+    <circle cx="5" cy="-3" r="5" fill="#f1e05a"/>
+    <text x="15" y="0" class="repo-lang">Unknown</text>
+  </g>
+  
+  <g transform="translate(150, 90)">
+    <text y="0" class="repo-stat">⭐ 0</text>
+  </g>
+  
+  <g transform="translate(230, 90)">
+    <text y="0" class="repo-stat">🔱 0</text>
+  </g>
 </svg>

@@ -1,9 +1,41 @@
 <svg width="495" height="195" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .header { fill: #58a6ff; font-size: 18px; font-weight: 600; }
+      .stat-label { fill: #8b949e; font-size: 14px; }
+      .stat-value { fill: #c9d1d9; font-size: 14px; font-weight: 600; }
+      .icon { fill: #58a6ff; }
+    </style>
+  </defs>
+  
   <rect width="495" height="195" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="4.5"/>
-  <text x="247.5" y="97.5" font-family="Arial, sans-serif" font-size="16" fill="#c9d1d9" text-anchor="middle" dominant-baseline="middle">
-    GitHub Stats - Owl23007
-  </text>
-  <text x="247.5" y="125" font-family="Arial, sans-serif" font-size="12" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">
-    (This image will be automatically updated by GitHub Actions)
-  </text>
+  
+  <text x="25" y="35" class="header">Owl23007's GitHub Stats</text>
+  
+  <g transform="translate(25, 70)">
+    <text y="0" class="stat-label">Total Repos:</text>
+    <text x="200" y="0" class="stat-value">0</text>
+  </g>
+  
+  <g transform="translate(25, 95)">
+    <text y="0" class="stat-label">Total Stars:</text>
+    <text x="200" y="0" class="stat-value">0</text>
+  </g>
+  
+  <g transform="translate(25, 120)">
+    <text y="0" class="stat-label">Total Forks:</text>
+    <text x="200" y="0" class="stat-value">0</text>
+  </g>
+  
+  <g transform="translate(25, 145)">
+    <text y="0" class="stat-label">Followers:</text>
+    <text x="200" y="0" class="stat-value">0</text>
+  </g>
+  
+  <g transform="translate(270, 70)">
+    <text y="0" class="stat-label">Following:</text>
+    <text x="150" y="0" class="stat-value">0</text>
+  </g>
+  
+  <text x="470" y="185" style="fill: #8b949e; font-size: 10px;" text-anchor="end">Updated 2026-02-14</text>
 </svg>
