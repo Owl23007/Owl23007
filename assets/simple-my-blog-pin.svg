@@ -18,8 +18,8 @@
   <text x="15" y="55" class="repo-desc">A personal introduction website quickly built with VitePr...</text>
   
   <g transform="translate(15, 95)">
-    <circle cx="5" cy="-3" r="5" fill="#858585"/>
-    <text x="15" y="0" class="repo-lang">Unknown</text>
+    <circle cx="5" cy="-3" r="5" fill="#2b7489"/>
+    <text x="15" y="0" class="repo-lang">TypeScript</text>
   </g>
   
   <g transform="translate(150, 95)">
