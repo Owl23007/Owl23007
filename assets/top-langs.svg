@@ -19,32 +19,32 @@
   <g transform="translate(20, 60)">
     <circle cx="5" cy="-3" r="5" fill="#e34c26"/>
     <text x="15" y="0" class="lang-name">HTML</text>
-    <text x="200" y="0" class="lang-percent" text-anchor="end">34.8%</text>
+    <text x="200" y="0" class="lang-percent" text-anchor="end">34.4%</text>
   </g>
   <g transform="translate(20, 82)">
     <circle cx="5" cy="-3" r="5" fill="#b07219"/>
     <text x="15" y="0" class="lang-name">Java</text>
-    <text x="200" y="0" class="lang-percent" text-anchor="end">18.1%</text>
+    <text x="200" y="0" class="lang-percent" text-anchor="end">17.9%</text>
   </g>
   <g transform="translate(20, 104)">
     <circle cx="5" cy="-3" r="5" fill="#f1e05a"/>
     <text x="15" y="0" class="lang-name">JavaScript</text>
-    <text x="200" y="0" class="lang-percent" text-anchor="end">14.6%</text>
+    <text x="200" y="0" class="lang-percent" text-anchor="end">14.8%</text>
   </g>
   <g transform="translate(20, 126)">
     <circle cx="5" cy="-3" r="5" fill="#41b883"/>
     <text x="15" y="0" class="lang-name">Vue</text>
-    <text x="200" y="0" class="lang-percent" text-anchor="end">12.7%</text>
+    <text x="200" y="0" class="lang-percent" text-anchor="end">13.2%</text>
   </g>
   <g transform="translate(20, 148)">
     <circle cx="5" cy="-3" r="5" fill="#A97BFF"/>
     <text x="15" y="0" class="lang-name">Kotlin</text>
-    <text x="200" y="0" class="lang-percent" text-anchor="end">11.7%</text>
+    <text x="200" y="0" class="lang-percent" text-anchor="end">11.6%</text>
   </g>
   <g transform="translate(20, 170)">
     <circle cx="5" cy="-3" r="5" fill="#563d7c"/>
     <text x="15" y="0" class="lang-name">CSS</text>
-    <text x="200" y="0" class="lang-percent" text-anchor="end">8.2%</text>
+    <text x="200" y="0" class="lang-percent" text-anchor="end">8.1%</text>
   </g>
-  <text x="220" y="185" style="fill: #5c8a97; font-size: 10px; font-family: 'Segoe UI', Ubuntu, sans-serif;" text-anchor="end">Updated 2026-04-09</text>
+  <text x="220" y="185" style="fill: #5c8a97; font-size: 10px; font-family: 'Segoe UI', Ubuntu, sans-serif;" text-anchor="end">Updated 2026-04-10</text>
 </svg>
