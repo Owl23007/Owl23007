@@ -26,6 +26,6 @@
   <g transform="translate(244, 102)">
     <path class="commit-icon" d="M0 -6 H4 M14 -6 H18"/>
     <circle class="commit-icon" cx="9" cy="-6" r="4"/>
-    <text x="26" y="0" class="repo-stat">1</text>
+    <text x="26" y="0" class="repo-stat">0</text>
   </g>
 </svg>

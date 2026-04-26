@@ -381,8 +381,7 @@ def generate_tech_stack_card() -> str:
 def generate_stats_card(stats: dict[str, int | str]) -> str:
     """Generate SVG for GitHub stats."""
     today = datetime.now().strftime("%Y-%m-%d")
-    name = escape(stats["name"])
-    return f'''<svg width="495" height="195" viewBox="0 0 495 195" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{name}'s GitHub stats">
+    return f'''<svg width="495" height="195" viewBox="0 0 495 195" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub stats">
   <defs>
     <style>
       .header {{ fill: #102033; font-size: 18px; font-weight: 700; font-family: {FONT_STACK}; }}
@@ -394,7 +393,7 @@ def generate_stats_card(stats: dict[str, int | str]) -> str:
 
   <rect x="1" y="1" width="493" height="193" rx="10" fill="#ffffff" stroke="#dbe8f6" stroke-width="2"/>
   <rect x="18" y="17" width="459" height="42" rx="8" fill="#f3f8ff"/>
-  <text x="30" y="44" class="header">{name}'s GitHub Stats</text>
+  <text x="247.5" y="44" class="header" text-anchor="middle">GitHub Stats</text>
 
   <g transform="translate(30, 88)">
     <text class="label">Repositories</text>
@@ -432,13 +431,16 @@ def generate_languages_card(languages: list[tuple[str, int]]) -> str:
     rows: list[str] = []
     for index, (lang, bytes_count) in enumerate(languages):
         percentage = (bytes_count / total_bytes) * 100
+        bar_width = max(4, min(152, percentage * 1.52))
         color = LANG_COLORS.get(lang, "#858585")
-        y = 60 + index * 20
+        y = 58 + index * 21
         rows.append(f'''
   <g transform="translate(20, {y})">
     <circle cx="5" cy="-4" r="5" fill="{color}"/>
     <text x="17" y="0" class="name">{escape(lang)}</text>
     <text x="200" y="0" class="percent" text-anchor="end">{percentage:.1f}%</text>
+    <rect x="17" y="6" width="152" height="5" rx="2.5" fill="#edf4fb"/>
+    <rect x="17" y="6" width="{bar_width:.1f}" height="5" rx="2.5" fill="{color}"/>
   </g>''')
 
     return f'''<svg width="240" height="195" viewBox="0 0 240 195" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top languages">
