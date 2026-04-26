@@ -1,0 +1,95 @@
+<svg width="800" height="218" viewBox="0 0 800 218" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Technology stack">
+  <defs>
+    <linearGradient id="stack-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="58%" stop-color="#f8fcff"/>
+      <stop offset="100%" stop-color="#eef7ff"/>
+    </linearGradient>
+    <style>
+      .title { fill: #102033; font-size: 18px; font-weight: 760; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+      .subtitle { fill: #5f7185; font-size: 12px; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+      .group-title { fill: #102033; font-size: 13px; font-weight: 720; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+      .item { fill: #36536f; font-size: 12px; font-weight: 620; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="798" height="216" rx="16" fill="url(#stack-bg)" stroke="#dbe8f6" stroke-width="2"/>
+  <text x="32" y="26" class="title">Tech Stack</text>
+  <text x="140" y="26" class="subtitle">Languages, platforms, and creative tools I use often.</text>
+  
+  <g transform="translate(32, 38)">
+    <rect width="226" height="152" rx="14" fill="#ffffff" stroke="#dbe8f6" stroke-width="2"/>
+    <rect x="14" y="14" width="198" height="30" rx="15" fill="#f3f8ff"/>
+    <circle cx="31" cy="29" r="5" fill="#2f80ed"/>
+    <text x="46" y="34" class="group-title">Core Development</text>
+    <g transform="translate(22, 0)">
+      
+      <g transform="translate(0, 68)">
+        <circle cx="8" cy="-4" r="5" fill="#3572A5"/>
+        <text x="22" y="0" class="item">Python</text>
+      </g>
+      <g transform="translate(0, 92)">
+        <circle cx="8" cy="-4" r="5" fill="#b07219"/>
+        <text x="22" y="0" class="item">Java</text>
+      </g>
+      <g transform="translate(0, 116)">
+        <circle cx="8" cy="-4" r="5" fill="#41b883"/>
+        <text x="22" y="0" class="item">Vue</text>
+      </g>
+      <g transform="translate(0, 140)">
+        <circle cx="8" cy="-4" r="5" fill="#3178c6"/>
+        <text x="22" y="0" class="item">TypeScript</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(282, 38)">
+    <rect width="226" height="152" rx="14" fill="#ffffff" stroke="#dbe8f6" stroke-width="2"/>
+    <rect x="14" y="14" width="198" height="30" rx="15" fill="#f3f8ff"/>
+    <circle cx="31" cy="29" r="5" fill="#27ae60"/>
+    <text x="46" y="34" class="group-title">Apps &amp; Tooling</text>
+    <g transform="translate(22, 0)">
+      
+      <g transform="translate(0, 68)">
+        <circle cx="8" cy="-4" r="5" fill="#3DDC84"/>
+        <text x="22" y="0" class="item">Android</text>
+      </g>
+      <g transform="translate(0, 92)">
+        <circle cx="8" cy="-4" r="5" fill="#47848F"/>
+        <text x="22" y="0" class="item">Electron</text>
+      </g>
+      <g transform="translate(0, 116)">
+        <circle cx="8" cy="-4" r="5" fill="#646CFF"/>
+        <text x="22" y="0" class="item">VitePress</text>
+      </g>
+      <g transform="translate(0, 140)">
+        <circle cx="8" cy="-4" r="5" fill="#2088FF"/>
+        <text x="22" y="0" class="item">GitHub Actions</text>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(532, 38)">
+    <rect width="226" height="152" rx="14" fill="#ffffff" stroke="#dbe8f6" stroke-width="2"/>
+    <rect x="14" y="14" width="198" height="30" rx="15" fill="#f3f8ff"/>
+    <circle cx="31" cy="29" r="5" fill="#f2994a"/>
+    <text x="46" y="34" class="group-title">Creative Lab</text>
+    <g transform="translate(22, 0)">
+      
+      <g transform="translate(0, 68)">
+        <circle cx="8" cy="-4" r="5" fill="#222222"/>
+        <text x="22" y="0" class="item">Unity</text>
+      </g>
+      <g transform="translate(0, 92)">
+        <circle cx="8" cy="-4" r="5" fill="#F5792A"/>
+        <text x="22" y="0" class="item">Blender</text>
+      </g>
+      <g transform="translate(0, 116)">
+        <circle cx="8" cy="-4" r="5" fill="#FB5607"/>
+        <text x="22" y="0" class="item">FL Studio</text>
+      </g>
+      <g transform="translate(0, 140)">
+        <circle cx="8" cy="-4" r="5" fill="#8E7CC3"/>
+        <text x="22" y="0" class="item">3D / Music</text>
+      </g>
+    </g>
+  </g>
+</svg>

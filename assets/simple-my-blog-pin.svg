@@ -1,32 +1,31 @@
-<svg width="400" height="120" xmlns="http://www.w3.org/2000/svg">
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="simple-my-blog repository card">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1e1e2e"/>
-      <stop offset="100%" style="stop-color:#302d41"/>
-    </linearGradient>
     <style>
-      .repo-name { fill: #89b4fa; font-size: 16px; font-weight: 600; font-family: 'Segoe UI', Ubuntu, sans-serif; }
-      .repo-desc { fill: #a6adc8; font-size: 12px; font-family: 'Segoe UI', Ubuntu, sans-serif; }
-      .repo-stat { fill: #cdd6f4; font-size: 12px; font-family: 'Segoe UI', Ubuntu, sans-serif; }
-      .repo-lang { fill: #cdd6f4; font-size: 12px; font-family: 'Segoe UI', Ubuntu, sans-serif; }
+      .repo-name { fill: #102033; font-size: 16px; font-weight: 700; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+      .repo-desc { fill: #5f7185; font-size: 12px; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+      .repo-stat { fill: #36536f; font-size: 12px; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+      .star-icon { fill: #f2994a; }
+      .commit-icon { fill: none; stroke: #2f80ed; stroke-width: 1.8; stroke-linecap: round; }
     </style>
   </defs>
-  
-  <rect width="400" height="120" fill="url(#bg)" stroke="#45475a" stroke-width="1" rx="8"/>
-  
-  <text x="15" y="30" class="repo-name">📦 simple-my-blog</text>
-  <text x="15" y="55" class="repo-desc">A personal introduction website quickly built with VitePr...</text>
-  
-  <g transform="translate(15, 95)">
-    <circle cx="5" cy="-3" r="5" fill="#2b7489"/>
-    <text x="15" y="0" class="repo-lang">TypeScript</text>
+
+  <rect x="1" y="1" width="398" height="118" rx="10" fill="#ffffff" stroke="#dbe8f6" stroke-width="2"/>
+  <rect x="14" y="14" width="372" height="34" rx="8" fill="#f8fbff"/>
+  <text x="26" y="36" class="repo-name">simple-my-blog</text>
+  <text x="26" y="62" class="repo-desc">A personal introduction website quickly built with</text>
+  <text x="26" y="78" class="repo-desc">VitePress.</text>
+
+  <g transform="translate(26, 102)">
+    <circle cx="5" cy="-4" r="5" fill="#3178c6"/>
+    <text x="17" y="0" class="repo-stat">TypeScript</text>
   </g>
-  
-  <g transform="translate(150, 95)">
-    <text y="0" class="repo-stat">⭐ 8</text>
+  <g transform="translate(170, 102)">
+    <path class="star-icon" d="M6 -13 L7.9 -8.5 L12.8 -8.1 L9.1 -5 L10.2 -0.2 L6 -2.7 L1.8 -0.2 L2.9 -5 L-0.8 -8.1 L4.1 -8.5 Z"/>
+    <text x="19" y="0" class="repo-stat">8</text>
   </g>
-  
-  <g transform="translate(230, 95)">
-    <text y="0" class="repo-stat">🔱 0</text>
+  <g transform="translate(244, 102)">
+    <path class="commit-icon" d="M0 -6 H4 M14 -6 H18"/>
+    <circle class="commit-icon" cx="9" cy="-6" r="4"/>
+    <text x="26" y="0" class="repo-stat">1</text>
   </g>
 </svg>

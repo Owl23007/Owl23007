@@ -1,47 +1,38 @@
-<svg width="495" height="195" xmlns="http://www.w3.org/2000/svg">
+<svg width="495" height="195" viewBox="0 0 495 195" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Oii's GitHub stats">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f2027"/>
-      <stop offset="50%" style="stop-color:#203a43"/>
-      <stop offset="100%" style="stop-color:#2c5364"/>
-    </linearGradient>
     <style>
-      .header { fill: #70e1f5; font-size: 18px; font-weight: 600; font-family: 'Segoe UI', Ubuntu, sans-serif; }
-      .stat-label { fill: #a8dadc; font-size: 14px; font-family: 'Segoe UI', Ubuntu, sans-serif; }
-      .stat-value { fill: #ffffff; font-size: 14px; font-weight: 700; font-family: 'Segoe UI', Ubuntu, sans-serif; }
-      .icon { fill: #70e1f5; }
+      .header { fill: #102033; font-size: 18px; font-weight: 700; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+      .label { fill: #5f7185; font-size: 13px; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+      .value { fill: #102033; font-size: 18px; font-weight: 760; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+      .foot { fill: #7b8da0; font-size: 10px; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
     </style>
   </defs>
-  
-  <rect width="495" height="195" fill="url(#bg)" stroke="#3d5a80" stroke-width="1" rx="8"/>
-  
-  <text x="25" y="35" class="header">✨ Oii's GitHub Stats</text>
-  <line x1="25" y1="45" x2="470" y2="45" stroke="#3d5a80" stroke-width="0.5"/>
-  
-  <g transform="translate(25, 72)">
-    <text y="0" class="stat-label">📁 Total Repos</text>
-    <text x="200" y="0" class="stat-value">20</text>
+
+  <rect x="1" y="1" width="493" height="193" rx="10" fill="#ffffff" stroke="#dbe8f6" stroke-width="2"/>
+  <rect x="18" y="17" width="459" height="42" rx="8" fill="#f3f8ff"/>
+  <text x="30" y="44" class="header">Oii's GitHub Stats</text>
+
+  <g transform="translate(30, 88)">
+    <text class="label">Repositories</text>
+    <text y="24" class="value">20</text>
   </g>
-  
-  <g transform="translate(25, 97)">
-    <text y="0" class="stat-label">⭐ Total Stars</text>
-    <text x="200" y="0" class="stat-value">14</text>
+  <g transform="translate(180, 88)">
+    <text class="label">Stars</text>
+    <text y="24" class="value">14</text>
   </g>
-  
-  <g transform="translate(25, 122)">
-    <text y="0" class="stat-label">🔱 Total Forks</text>
-    <text x="200" y="0" class="stat-value">0</text>
+  <g transform="translate(315, 88)">
+    <text class="label">Recent Commits</text>
+    <text y="24" class="value">0</text>
   </g>
-  
-  <g transform="translate(25, 147)">
-    <text y="0" class="stat-label">👥 Followers</text>
-    <text x="200" y="0" class="stat-value">3</text>
+
+  <g transform="translate(30, 146)">
+    <text class="label">Followers</text>
+    <text x="92" class="value">4</text>
   </g>
-  
-  <g transform="translate(270, 72)">
-    <text y="0" class="stat-label">➡️ Following</text>
-    <text x="150" y="0" class="stat-value">6</text>
+  <g transform="translate(220, 146)">
+    <text class="label">Following</text>
+    <text x="92" class="value">6</text>
   </g>
-  
-  <text x="470" y="185" style="fill: #5c8a97; font-size: 10px; font-family: 'Segoe UI', Ubuntu, sans-serif;" text-anchor="end">Updated 2026-04-26</text>
+
+  <text x="472" y="178" class="foot" text-anchor="end">Updated 2026-04-26</text>
 </svg>

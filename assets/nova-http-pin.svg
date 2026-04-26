@@ -1,4 +1,4 @@
-<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Linx repository card">
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="nova-http repository card">
   <defs>
     <style>
       .repo-name { fill: #102033; font-size: 16px; font-weight: 700; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
@@ -11,9 +11,9 @@
 
   <rect x="1" y="1" width="398" height="118" rx="10" fill="#ffffff" stroke="#dbe8f6" stroke-width="2"/>
   <rect x="14" y="14" width="372" height="34" rx="8" fill="#f8fbff"/>
-  <text x="26" y="36" class="repo-name">Linx</text>
-  <text x="26" y="62" class="repo-desc">A lightweight toolkit for building and exploring</text>
-  <text x="26" y="78" class="repo-desc">useful desktop workflows.</text>
+  <text x="26" y="36" class="repo-name">nova-http</text>
+  <text x="26" y="62" class="repo-desc">A lightweight, high-performance Node.js web</text>
+  <text x="26" y="78" class="repo-desc">framework built on modern TypeScript.</text>
 
   <g transform="translate(26, 102)">
     <circle cx="5" cy="-4" r="5" fill="#3178c6"/>
@@ -21,7 +21,7 @@
   </g>
   <g transform="translate(170, 102)">
     <path class="star-icon" d="M6 -13 L7.9 -8.5 L12.8 -8.1 L9.1 -5 L10.2 -0.2 L6 -2.7 L1.8 -0.2 L2.9 -5 L-0.8 -8.1 L4.1 -8.5 Z"/>
-    <text x="19" y="0" class="repo-stat">1</text>
+    <text x="19" y="0" class="repo-stat">0</text>
   </g>
   <g transform="translate(244, 102)">
     <path class="commit-icon" d="M0 -6 H4 M14 -6 H18"/>

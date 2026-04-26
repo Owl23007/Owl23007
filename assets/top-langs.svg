@@ -1,50 +1,46 @@
-<svg width="240" height="195" xmlns="http://www.w3.org/2000/svg">
+<svg width="240" height="195" viewBox="0 0 240 195" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top languages">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1a2e"/>
-      <stop offset="50%" style="stop-color:#16213e"/>
-      <stop offset="100%" style="stop-color:#0f3460"/>
-    </linearGradient>
     <style>
-      .lang-name { fill: #e0e0e0; font-size: 12px; font-family: 'Segoe UI', Ubuntu, sans-serif; }
-      .lang-percent { fill: #a8dadc; font-size: 11px; font-family: 'Segoe UI', Ubuntu, sans-serif; }
+      .title { fill: #102033; font-size: 16px; font-weight: 700; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+      .name { fill: #36536f; font-size: 12px; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+      .percent { fill: #5f7185; font-size: 11px; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
+      .foot { fill: #7b8da0; font-size: 10px; font-family: 'Segoe UI', Ubuntu, Arial, sans-serif; }
     </style>
   </defs>
-  
-  <rect width="240" height="195" fill="url(#bg)" stroke="#3d5a80" stroke-width="1" rx="8"/>
-  
-  <text x="120" y="30" style="fill: #70e1f5; font-size: 16px; font-weight: 600; font-family: 'Segoe UI', Ubuntu, sans-serif;" text-anchor="middle">🏆 Top Languages</text>
-  <line x1="20" y1="40" x2="220" y2="40" stroke="#3d5a80" stroke-width="0.5"/>
 
+  <rect x="1" y="1" width="238" height="193" rx="10" fill="#ffffff" stroke="#dbe8f6" stroke-width="2"/>
+  <rect x="15" y="16" width="210" height="30" rx="8" fill="#f3f8ff"/>
+  <text x="120" y="36" class="title" text-anchor="middle">Top Languages</text>
+  
   <g transform="translate(20, 60)">
-    <circle cx="5" cy="-3" r="5" fill="#e34c26"/>
-    <text x="15" y="0" class="lang-name">HTML</text>
-    <text x="200" y="0" class="lang-percent" text-anchor="end">34.4%</text>
+    <circle cx="5" cy="-4" r="5" fill="#b07219"/>
+    <text x="17" y="0" class="name">Java</text>
+    <text x="200" y="0" class="percent" text-anchor="end">39.6%</text>
   </g>
-  <g transform="translate(20, 82)">
-    <circle cx="5" cy="-3" r="5" fill="#b07219"/>
-    <text x="15" y="0" class="lang-name">Java</text>
-    <text x="200" y="0" class="lang-percent" text-anchor="end">17.9%</text>
+  <g transform="translate(20, 80)">
+    <circle cx="5" cy="-4" r="5" fill="#41b883"/>
+    <text x="17" y="0" class="name">Vue</text>
+    <text x="200" y="0" class="percent" text-anchor="end">33.2%</text>
   </g>
-  <g transform="translate(20, 104)">
-    <circle cx="5" cy="-3" r="5" fill="#f1e05a"/>
-    <text x="15" y="0" class="lang-name">JavaScript</text>
-    <text x="200" y="0" class="lang-percent" text-anchor="end">14.8%</text>
+  <g transform="translate(20, 100)">
+    <circle cx="5" cy="-4" r="5" fill="#f1e05a"/>
+    <text x="17" y="0" class="name">JavaScript</text>
+    <text x="200" y="0" class="percent" text-anchor="end">12.1%</text>
   </g>
-  <g transform="translate(20, 126)">
-    <circle cx="5" cy="-3" r="5" fill="#41b883"/>
-    <text x="15" y="0" class="lang-name">Vue</text>
-    <text x="200" y="0" class="lang-percent" text-anchor="end">13.2%</text>
+  <g transform="translate(20, 120)">
+    <circle cx="5" cy="-4" r="5" fill="#3178c6"/>
+    <text x="17" y="0" class="name">TypeScript</text>
+    <text x="200" y="0" class="percent" text-anchor="end">7.3%</text>
   </g>
-  <g transform="translate(20, 148)">
-    <circle cx="5" cy="-3" r="5" fill="#A97BFF"/>
-    <text x="15" y="0" class="lang-name">Kotlin</text>
-    <text x="200" y="0" class="lang-percent" text-anchor="end">11.5%</text>
+  <g transform="translate(20, 140)">
+    <circle cx="5" cy="-4" r="5" fill="#555555"/>
+    <text x="17" y="0" class="name">C</text>
+    <text x="200" y="0" class="percent" text-anchor="end">5.6%</text>
   </g>
-  <g transform="translate(20, 170)">
-    <circle cx="5" cy="-3" r="5" fill="#563d7c"/>
-    <text x="15" y="0" class="lang-name">CSS</text>
-    <text x="200" y="0" class="lang-percent" text-anchor="end">8.2%</text>
+  <g transform="translate(20, 160)">
+    <circle cx="5" cy="-4" r="5" fill="#00ADD8"/>
+    <text x="17" y="0" class="name">Go</text>
+    <text x="200" y="0" class="percent" text-anchor="end">2.2%</text>
   </g>
-  <text x="220" y="185" style="fill: #5c8a97; font-size: 10px; font-family: 'Segoe UI', Ubuntu, sans-serif;" text-anchor="end">Updated 2026-04-26</text>
+  <text x="220" y="178" class="foot" text-anchor="end">Updated 2026-04-26</text>
 </svg>
