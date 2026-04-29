@@ -21,7 +21,7 @@
   </g>
   <g transform="translate(170, 102)">
     <path class="star-icon" d="M6 -13 L7.9 -8.5 L12.8 -8.1 L9.1 -5 L10.2 -0.2 L6 -2.7 L1.8 -0.2 L2.9 -5 L-0.8 -8.1 L4.1 -8.5 Z"/>
-    <text x="19" y="0" class="repo-stat">1</text>
+    <text x="19" y="0" class="repo-stat">2</text>
   </g>
   <g transform="translate(244, 102)">
     <path class="commit-icon" d="M0 -6 H4 M14 -6 H18"/>
