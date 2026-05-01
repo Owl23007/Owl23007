@@ -18,7 +18,7 @@
   </g>
   <g transform="translate(180, 88)">
     <text class="label">Stars</text>
-    <text y="24" class="value">15</text>
+    <text y="24" class="value">18</text>
   </g>
   <g transform="translate(315, 88)">
     <text class="label">Recent Commits</text>
@@ -27,12 +27,12 @@
 
   <g transform="translate(30, 146)">
     <text class="label">Followers</text>
-    <text x="92" class="value">4</text>
+    <text x="92" class="value">5</text>
   </g>
   <g transform="translate(220, 146)">
     <text class="label">Following</text>
-    <text x="92" class="value">6</text>
+    <text x="92" class="value">7</text>
   </g>
 
-  <text x="472" y="178" class="foot" text-anchor="end">Updated 2026-04-30</text>
+  <text x="472" y="178" class="foot" text-anchor="end">Updated 2026-05-01</text>
 </svg>
