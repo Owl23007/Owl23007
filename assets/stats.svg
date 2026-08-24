@@ -27,12 +27,12 @@
 
   <g transform="translate(30, 146)">
     <text class="label">Followers</text>
-    <text x="92" class="value">5</text>
+    <text x="92" class="value">6</text>
   </g>
   <g transform="translate(220, 146)">
     <text class="label">Following</text>
     <text x="92" class="value">7</text>
   </g>
 
-  <text x="472" y="178" class="foot" text-anchor="end">Updated 2026-08-23</text>
+  <text x="472" y="178" class="foot" text-anchor="end">Updated 2026-08-24</text>
 </svg>
