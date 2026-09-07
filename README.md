@@ -30,23 +30,6 @@ I thrive at the intersection of engineering and interactive design. Curious, occ
   <img src="assets/tech-stack.svg" alt="Tech Stack" width="800"/>
 </div>
 
-### Featured Projects
-
-<div align="center">
-  <a href="https://github.com/Owl23007/simple-my-blog">
-    <img src="./assets/simple-my-blog-pin.svg" alt="simple-my-blog" width="400"/>
-  </a>
-  <a href="https://github.com/Owl23007/Linx">
-    <img src="./assets/linx-pin.svg" alt="Linx" width="400"/>
-  </a>
-  <a href="https://github.com/Owl23007/nova-http">
-    <img src="./assets/nova-http-pin.svg" alt="nova-http" width="400"/>
-  </a>
-  <a href="https://github.com/Owl23007/synapse-android">
-    <img src="./assets/synapse-android-pin.svg" alt="synapse-android" width="400"/>
-  </a>
-</div>
-
 ### GitHub Stats
 
 <div align="center">
