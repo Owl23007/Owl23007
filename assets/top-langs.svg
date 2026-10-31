@@ -22,16 +22,16 @@
   <g transform="translate(20, 79)">
     <circle cx="5" cy="-4" r="5" fill="#3178c6"/>
     <text x="17" y="0" class="name">TypeScript</text>
-    <text x="200" y="0" class="percent" text-anchor="end">28.2%</text>
+    <text x="200" y="0" class="percent" text-anchor="end">28.3%</text>
     <rect x="17" y="6" width="152" height="5" rx="2.5" fill="#edf4fb"/>
-    <rect x="17" y="6" width="42.9" height="5" rx="2.5" fill="#3178c6"/>
+    <rect x="17" y="6" width="43.0" height="5" rx="2.5" fill="#3178c6"/>
   </g>
   <g transform="translate(20, 100)">
     <circle cx="5" cy="-4" r="5" fill="#f1e05a"/>
     <text x="17" y="0" class="name">JavaScript</text>
     <text x="200" y="0" class="percent" text-anchor="end">10.0%</text>
     <rect x="17" y="6" width="152" height="5" rx="2.5" fill="#edf4fb"/>
-    <rect x="17" y="6" width="15.1" height="5" rx="2.5" fill="#f1e05a"/>
+    <rect x="17" y="6" width="15.2" height="5" rx="2.5" fill="#f1e05a"/>
   </g>
   <g transform="translate(20, 121)">
     <circle cx="5" cy="-4" r="5" fill="#41b883"/>
@@ -54,5 +54,5 @@
     <rect x="17" y="6" width="152" height="5" rx="2.5" fill="#edf4fb"/>
     <rect x="17" y="6" width="7.9" height="5" rx="2.5" fill="#A97BFF"/>
   </g>
-  <text x="220" y="178" class="foot" text-anchor="end">Updated 2026-10-30</text>
+  <text x="220" y="178" class="foot" text-anchor="end">Updated 2026-10-31</text>
 </svg>
